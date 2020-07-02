@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/color__back"
+    android:padding="8dp"
+    tools:context=".view.MainActivity">
+    <TextView
+        android:id="@+id/textlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Logout"
+        android:gravity="right"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/ll"
+        android:text="READY FOR TRACKING?"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@drawable/custom_round">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="YES"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_trackhistroy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:text="TRACKING HISTORY"
+            android:background="@drawable/edittext_white"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+    </RelativeLayout>
+
+</RelativeLayout>

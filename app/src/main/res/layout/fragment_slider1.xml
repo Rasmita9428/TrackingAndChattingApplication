@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_350sdp">
+
+        <ImageView
+            android:id="@+id/img_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sliderimage1"
+            android:scaleType="fitXY" />
+            <TextView
+                android:id="@+id/txtwelcomesauteez1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="start|bottom"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:text="Perfect your application"
+                android:textColor="@color/color_title_text"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="start|bottom"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:text="Everything you need to know about applying"
+                android:textColor="@color/color_title_text"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp"/>
+
+        </FrameLayout>
+
+</RelativeLayout>

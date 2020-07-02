@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919761215205",
+    "firebase_url": "https://tailwebsassigment2.firebaseio.com",
+    "project_id": "tailwebsassigment2",
+    "storage_bucket": "tailwebsassigment2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919761215205:android:0b34d04cd8096cedeebe0c",
+        "android_client_info": {
+          "package_name": "com.example.trackingandchattingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919761215205-rp4vis3nv0chpc37d96qknn06c398ke8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD-hN6f0ehuFPJioItQd0AEbPyomPV5zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919761215205-rp4vis3nv0chpc37d96qknn06c398ke8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
