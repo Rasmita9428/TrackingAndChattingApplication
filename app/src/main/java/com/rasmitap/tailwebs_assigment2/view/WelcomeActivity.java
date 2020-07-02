@@ -49,7 +49,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_welcome);
      //   img_slider = findViewById(R.id.img_slider);
         btn_continue = findViewById(R.id.btn_continue);
-        txtlogin = findViewById(R.id.btn_continue);
+        txtlogin = findViewById(R.id.txtlogin);
         viewpager = findViewById(R.id.viewpager);
         circleIndicator = findViewById(R.id.circleIndicator);
 
@@ -136,9 +136,6 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view){
 
-        if (SystemClock.elapsedRealtime() - lastClickTime < 1000) {
-
-        } else {
             switch (view.getId()) {
                 case R.id.txtlogin:
                     Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
@@ -153,7 +150,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
 
                     break;
             }
-        }
+
     }
 
     class ViewPagerAdapter extends FragmentPagerAdapter {

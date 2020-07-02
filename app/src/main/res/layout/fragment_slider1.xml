@@ -11,7 +11,7 @@
             android:id="@+id/img_slider"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/sliderimage1"
+            android:src="@drawable/slider1"
             android:scaleType="fitXY" />
             <TextView
                 android:id="@+id/txtwelcomesauteez1"
@@ -21,7 +21,7 @@
                 android:gravity="start|bottom"
                 android:layout_marginBottom="@dimen/_40sdp"
                 android:text="Perfect your application"
-                android:textColor="@color/color_title_text"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="@dimen/_18sdp"/>
             <TextView
@@ -31,7 +31,7 @@
                 android:gravity="start|bottom"
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:text="Everything you need to know about applying"
-                android:textColor="@color/color_title_text"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="@dimen/_12sdp"/>
 

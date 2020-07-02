@@ -17,7 +17,7 @@
                 android:id="@+id/img_slider"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/sliderimage3"
+                android:src="@drawable/slider3"
                 android:scaleType="fitXY" />
             <TextView
                 android:id="@+id/txtwelcomesauteez1"
@@ -27,7 +27,7 @@
                 android:gravity="start|bottom"
                 android:layout_marginBottom="@dimen/_40sdp"
                 android:text="Postgraduate applications open "
-                android:textColor="@color/color_title_text"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="@dimen/_18sdp"/>
             <TextView
@@ -37,7 +37,7 @@
                 android:gravity="start|bottom"
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:text="Join our world."
-                android:textColor="@color/color_title_text"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="@dimen/_12sdp"/>
 
